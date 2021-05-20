@@ -31,11 +31,6 @@ export default function Sidebar(props) {
       <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
         Archives
       </Typography>
-      {archives.map((archive) => (
-        <Link display="block" variant="body1" href={document.baseURI.split('&from')[0] + archive.url} key={archive.title}>
-          {archive.title}
-        </Link>
-      ))}
       <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
         Social
       </Typography>

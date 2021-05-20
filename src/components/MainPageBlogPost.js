@@ -8,6 +8,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Hidden from '@material-ui/core/Hidden';
+import '../css/MainPageBlogPost.css';
 
 const useStyles = makeStyles({
   card: {
@@ -21,7 +22,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function FeaturedPost(props) {
+export default function MainPageBlogPost(props) {
   const classes = useStyles();
   const { post } = props;
 
@@ -54,6 +55,6 @@ export default function FeaturedPost(props) {
   );
 }
 
-FeaturedPost.propTypes = {
+MainPageBlogPost.propTypes = {
   post: PropTypes.object,
 };

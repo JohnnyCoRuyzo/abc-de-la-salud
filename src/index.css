@@ -11,3 +11,208 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --yellow: #e2c768;
+  --dark-green: #243809;
+  --green: #61971a;
+  --orange: #c68c00;
+  --pure-white: #ffffff;
+  --white: #f7f7f3;
+  --gray: #e2e4db;
+}
+@font-face {
+  font-family: Baskervville;
+  src: local(Baskervville-Regular),
+    url(fonts/Baskerville-Regular.woff2) format("woff2"),
+    url(fonts/Baskerville-Regular.woff) format("woff"),
+    url(fonts/Baskerville-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Neuton;
+  src: local(Neuton-Light),
+    url(fonts/Neuton-Light.woff2) format("woff2"),
+    url(fonts/Neuton-Light.woff) format("woff"),
+    url(fonts/Neuton-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Neuton;
+  src: local(Neuton-Regular),
+    url(fonts/Neuton-Regular.woff2) format("woff2"),
+    url(fonts/Neuton-Regular.woff) format("woff"),
+    url(fonts/Neuton-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  font-family: Neuton;
+  src: local(Neuton-Bold),
+    url(fonts/Neuton-Bold.woff2) format("woff2"),
+    url(fonts/Neuton-Bold.woff) format("woff"),
+    url(fonts/Neuton-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+.footer-main-person-name {
+  font-family: Neuton;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.video-card-1-title {
+  font-family: Neuton;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.section-title {
+  font-family: Neuton;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.blog-card-title {
+  font-family: Neuton;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.product-card-title {
+  font-family: Neuton;
+  font-size: 11px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.Text-Style {
+  font-family: Neuton;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--green);
+}
+.blog-card-autor {
+  font-family: Neuton;
+  font-size: 10px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.video-card-2-title {
+  font-family: Neuton;
+  font-size: 9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.product-card-price {
+  font-family: Neuton;
+  font-size: 9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.footer-main-person-description {
+  font-family: Neuton;
+  font-size: 9px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.product-card-description {
+  font-family: Baskervville;
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.blog-card-read-more-text {
+  font-family: Baskervville;
+  font-size: 8px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.footer-main-person-phonenumber {
+  font-family: Neuton;
+  font-size: 7px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.button-text {
+  font-family: Baskervville;
+  font-size: 7px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.product-card-rating-number {
+  font-family: Neuton;
+  font-size: 7px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.blog-card-tag-category {
+  font-family: Neuton;
+  font-size: 7px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.blog-card-description {
+  font-family: Baskervville;
+  font-size: 6px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}

@@ -1,0 +1,18 @@
+.logo-text {
+  width: 133px;
+  height: 33px;
+  margin: 0 114px 0 0;
+  text-shadow: 0 4px 4px rgba(226, 199, 104, 0.5);
+  font-family: Neuton;
+  font-size: 9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--green);
+}
+.logo-text .text-style-1 {
+  font-size: 30px;
+}
